@@ -14,5 +14,5 @@ COPY . .
 # CMD [ "python3", "-m" , "flask", "run"]
 
 # plumb and run server
-EXPOSE 8080
+EXPOSE 80
 ENTRYPOINT ["python3", "app.py"]
